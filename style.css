@@ -421,36 +421,69 @@ footer div{
     background-color: white;
     border-radius: 100%
 }
- 
+
+    
+
 @media screen and (max-width: 1240px) {
+    #name{
+        font-size: 12px;
+        margin-left: 0%;
+        
+        color: white;
+    }
     #Home{
-        min-height:50vh;
+        min-height:40vh;
         }
+    .roboto{
+            position:relative;
+            height:50px;
+            line-height:50px;
+            font-size:20px;
+            text-transform:uppercase;
+            overflow:hidden;
+            display:inline-block;
+          }
     #Hcontent{
             position: absolute;
-            top: 20%;
-            left: 16.5%;
+            top: 15%;
+            left: 13%;
+            text-align: center;
+            
+    }
+    #Hcontent h1{
+        color: white;
+        font-size: 30px;
+        
     }
     #mypic{
-        
-        float: right;
-        visibility: hidden;    
+        width: 100px;
+        height: 150px;
+        float:inline-start;
         
     }
     .aboutcntnt p{
         
-        font-size: 20px;
+        font-size: 14px;
         line-height: 23px;
         font-weight: 400;
         color: #838383;
         width: 80%;
    
     }
+    .aboutcntnt h2{
+        font-size: 14px;
+        margin-right: 20%;
+    }
+    #About{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
     .aboutcntnt{
         margin-left: 0%;
     }
     .aboutcntnt h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     #Skills{
         list-style: none;
@@ -485,6 +518,24 @@ footer div{
         align-items: center;
         margin-left: 16%;
         
+    }
+    .info .list p{
+        margin:0;
+        font-size: 10px;
+    }
+    .info .list label{
+        padding-right:7px;
+        color:#000000;
+        font-weight: 600;
+        font-size:10px;
+    }
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 0%;
+        
+    
     }
 .navbar {
     display: flex;
@@ -525,12 +576,12 @@ footer div{
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 1.2rem;
+    right: 6rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
+    width: 26px;
     height: 21px;
 }
 
