@@ -1,4 +1,8 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
+    
     margin: 0%;
     padding: 0%;
     font-family: 'Poppins', sans-serif;
@@ -432,7 +436,7 @@ footer div{
         color: white;
     }
     #Home{
-        min-height:40vh;
+        min-height:50vh;
         }
     .roboto{
             position:relative;
@@ -445,8 +449,8 @@ footer div{
           }
     #Hcontent{
             position: absolute;
-            top: 15%;
-            left: 13%;
+            top: 20%;
+            left: 20%;
             text-align: center;
             
     }
@@ -455,9 +459,15 @@ footer div{
         font-size: 30px;
         
     }
+    #headerList li {
+        display: inline-block;
+        padding-top: 2px;
+        font-size: 10px;
+        position: relative;
+    } 
     #mypic{
         width: 100px;
-        height: 150px;
+        height: 160px;
         float:inline-start;
         
     }
@@ -467,12 +477,12 @@ footer div{
         line-height: 23px;
         font-weight: 400;
         color: #838383;
-        width: 80%;
+        width: 100%;
    
     }
     .aboutcntnt h2{
         font-size: 14px;
-        margin-right: 20%;
+        margin-right: 0%;
     }
     #About{
         margin-top: 10%;
@@ -488,7 +498,7 @@ footer div{
     #Skills{
         list-style: none;
         text-transform: uppercase;
-        width: 60%;
+        width: 70%;
         color: black;
         padding: 20px;
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0,0.22 ) ;
@@ -500,11 +510,11 @@ footer div{
         text-align: center;
        
         width: 100px;
-        margin-left: 40%;
-        padding: 1rem;
+        margin-left: 34%;
+        padding: .6rem;
     }
     .text{
-        font-size: 14px;
+        font-size: 12px;
     }
     #Portfolio{
         display:list-item;
@@ -512,12 +522,20 @@ footer div{
         text-align: center;
         
     }
+    footer{
+        height: 400px;
+        background-color: black;
+    }
     .social-list ul{
         list-style: none;
         display: flex;
         align-items: center;
-        margin-left: 16%;
-        
+        margin-right: 80px;
+           
+    }
+    .social-list{
+        margin-bottom: 100px;
+        margin-right: 220px;
     }
     .info .list p{
         margin:0;
@@ -536,6 +554,28 @@ footer div{
         margin-left: 0%;
         
     
+    }
+    footer div{
+        height: 100px;
+        background-color: black;
+        text-align: center;
+        color: white;
+        text-transform:uppercase ;
+        font-weight: 1000;
+        font-size:18px;
+        padding-top: .1% ;
+    }
+    footer h1{
+        margin-right: 30px;
+        margin-left: 30px;
+        border-bottom: 1px solid chocolate;
+    }
+    .social-list a img{
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 20px;
     }
 .navbar {
     display: flex;
@@ -577,7 +617,7 @@ footer div{
 .toggle-button {
     position: absolute;
     top: 1.2rem;
-    right: 6rem;
+    right: 4rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -595,6 +635,7 @@ footer div{
 .navbar {
     flex-direction: column;
     align-items: flex-start;
+    
 }
 
 .toggle-button {
